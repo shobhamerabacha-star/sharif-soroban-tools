@@ -1,19 +1,21 @@
 {
-    "name":  "sharif-soroban-tools",
-    "version":  "1.0.0",
-    "description":  "Tooling for developing, testing, and deploying Soroban smart contracts.",
-    "main":  "index.js",
-    "scripts":  {
-                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1"
-                },
-    "keywords":  [
-
-                 ],
-    "author":  "",
-    "license":  "ISC",
-    "private":  true,
-    "repository":  {
-                       "type":  "git",
-                       "url":  "git+https://github.com/sharif-stellar-tools/sharif-soroban-tools.git"
-                   }
+  "name": "sharif-soroban-tools",
+  "version": "1.0.0",
+  "description": "Tooling for developing, testing, and deploying Soroban smart contracts.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharif-stellar-tools/sharif-soroban-tools.git"
+  }
 }
